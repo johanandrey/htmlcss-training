@@ -1,0 +1,72 @@
+nav{
+    display: block;
+}
+
+.head {
+    width: 100%;
+    background: blue;
+    text-align: center;
+    height: 100px;
+    position: relative;
+}
+
+.head p{
+    color: white;
+    font-size: 28px;
+}
+
+.cont{
+    height: 500px;
+    width: 100%;
+    background: pink;
+    text-align: justify;
+}
+.leftcol{
+    width: 24%;
+    background: grey;
+    height: 500px;
+    position: relative;
+    float: left;
+}
+
+.rightcol{
+    width: 74%;
+    background: darkslategrey;
+    height: 500px;
+    float: left;
+    position: relative;
+
+}
+
+.cls-100{
+    width: 98%;
+    height: 150px;
+    background: pink;
+    position: relative;
+    float: left;
+    margin: 5px;
+}
+
+.cls-30{
+    width: 28%;
+    height: 150px;
+    background: pink;
+    position: relative;
+    float: left;
+    margin: 5px;
+    
+}
+
+#nombre {
+    margin-left: auto;
+    margin-right: auto;
+}
+div:hover{
+    align-content: center;
+}
+
+
+[footer]{
+    background: black;
+    color: white;
+}

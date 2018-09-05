@@ -1,0 +1,50 @@
+[general]{
+    color: blue;
+}
+
+[circle] {
+  height: 75px;
+  width: 75px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+[circle="red"]{
+    background-color: red;
+}
+[circle="red"]:hover{
+    animation-name: sizechange;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+[circle="redtoblue"]{
+    animation-name: redtoblue;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+/* animation */
+@keyframes redtoblue {
+    from {background-color: red;}
+    to {background-color: blue;}
+}
+
+@keyframes sizechange {
+    0%   {height: 75px; width: 75px;}
+    25%  {height: 85px; width: 85px;}
+    50%  {height: 95px; width: 95px;} 
+    100% {height: 120px; width: 120px;}
+}
+
+[img]{
+    width: 400px;
+    overflow: hidden;
+}
+.top{
+    margin-top: 30px;
+}
+
