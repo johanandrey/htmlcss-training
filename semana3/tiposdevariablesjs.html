@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+
+        console.log("Hola mundo");
+
+        // Float
+        var miflotante = 3.4 + 4.443;
+        console.log("Este es un flotante: " + miflotante);
+
+        // bool
+        var mibool = false;
+        console.log("Este es un booleano: " + Boolean(mibool));
+
+        // string
+        var mistring = "Walter White";
+        console.log("Este es un string: " + mistring);
+
+        // numbers array
+        var minumbers = new Array(324958432, 23432, 6763, 223);
+        console.log("Este es un numbers: Type " + typeof (minumbers) + " | " + minumbers);
+
+        // Objects
+        var Persona = {
+            nombre: "John",
+            apellido: "Doe",
+            documentoIdentificacion: 1023478923,
+            grupoSanguineo: "B+",
+            
+            nombreCompleto: function () {
+                return this.nombre + " " + this.apellido;
+            }
+        };
+
+        console.log("Objeto tipo Persona: " + typeof(Persona));
+        console.log("Datos del objeto: ");
+        console.log("Nombre completo - " + Persona.nombreCompleto());
+        console.log("Documento de Identificación: " + Persona.documentoIdentificacion);
+        console.log("Grupo Sanguíneo: " + Persona.grupoSanguineo);
+
+        function Persona = {
+            nombre: "John",
+            apellido: "Doe",
+            documentoIdentificacion: 1023478923,
+            grupoSanguineo: "B+",
+            
+            nombreCompleto: function () {
+                return this.nombre + " " + this.apellido;
+            }
+        };
+
+    </script>
+
+</head>
+
+</html>

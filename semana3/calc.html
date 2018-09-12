@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Calculator 3001 BETA</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <script src="js/mjs.js" async=""></script>
+</head>
+
+<body onload="clearTextBox();">
+    <div class="head">
+        <p>Super calc</p>
+    </div>
+
+    <div class="col-left">
+        <div class="flex-container">
+            <div><button onclick="calcular(this.value)" value="7">7</button></div>
+            <div><button onclick="calcular(this.value)" value="8">8</button></div>
+            <div><button onclick="calcular(this.value)" value="9">9</button></div>
+            <div><button onclick="calcular(this.value)" value="/">/</button></div>
+            <div><button onclick="calcular(this.value)" value="4">4</button></div>
+            <div><button onclick="calcular(this.value)" value="5">5</button></div>
+            <div><button onclick="calcular(this.value)" value="6">6</button></div>
+            <div><button onclick="calcular(this.value)" value="*">*</button></div>
+            <div><button onclick="calcular(this.value)" value="1">1</button></div>
+            <div><button onclick="calcular(this.value)" value="2">2</button></div>
+            <div><button onclick="calcular(this.value)" value="3">3</button></div>
+            <div><button onclick="calcular(this.value)" value="-">-</button></div>
+            <div><button onclick="calcular(this.value)" value="0">0</button></div>
+            <div><button onclick="calcular(this.value)" value=".">.</button></div>
+            <div><button onclick="calcular(this.value)" value="=">=</button></div>
+            <div><button onclick="calcular(this.value)" value="+">+</button></div>
+        </div>
+    </div>
+
+    <div class="col-right">
+        <input type="text" id="resultados" size="50" value="" readonly>
+    </div>
+    
+</html>
